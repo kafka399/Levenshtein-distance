@@ -1,5 +1,8 @@
-This implementation of Levenstein's distance in C++. If you are looking for simple/pure implementation of it, please refer Levenshtein.cpp->int levenshtein_distance(std::string target, std::string source, int kMaxCost). 
+Implementation of Levenstein's distance in C++. If you are looking for simple/pure implementation of it, please refer Levenshtein.cpp->int levenshtein_distance(std::string target, std::string source, int kMaxCost). 
 
 However, if the dictionary is big and you are looking for ways to boost performance, then you need to use trie data structure + Levenshtein distance algorithm. MyNode class implements simple tree structure and provides Levenshtein distance search.
 
 Levenshtein.cpp file has testNode() and testDict() functions for code profiling. Use runLookup() method for term lookup.  
+
+To compile:
+g++ -g MyNode.cpp Levenshtein.cpp -lrt -o dict
