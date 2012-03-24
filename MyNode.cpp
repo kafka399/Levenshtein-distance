@@ -10,7 +10,6 @@
 #include<fstream>
 #include <string>
 #include "MyNode.h"
-#include "TopList.h"
 
 using namespace std;
 	MyNode::MyNode(char c) {
