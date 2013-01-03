@@ -8,3 +8,8 @@ To compile:
 g++ -g MyNode.cpp Levenshtein.cpp -lrt -o dict
 
 For more information please check this post: http://www.investuotojas.eu/2012/03/25/levenshtein-distance-in-c-and-code-profiling-in-r/
+
+License
+===
+Copyright 2012 Dzidorius Martinaitis
+GPL - http://www.gnu.org/licenses/agpl.txt
